@@ -1,0 +1,29 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "this is a npm test file",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node_modules/browser-sync/bin/browser-sync.js start --config node_modules/learn-browser/bs-config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hankeliu2015/npm-lab-online-web-pt-092418.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "henry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hankeliu2015/npm-lab-online-web-pt-092418/issues"
+  },
+  "homepage": "https://github.com/hankeliu2015/npm-lab-online-web-pt-092418#readme",
+  "dependencies": {
+    "learn-browser": "^0.1.24",
+    "moment": "^2.24.0"
+  }
+}
